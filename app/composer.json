@@ -1,0 +1,19 @@
+{
+    "name": "5zymon/mtrdojo1",
+    "description": "Dojo1 in MyTrioRings",
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    },
+    "autoload": {
+        "psr-0": {
+            "mtrdojo1": ["src", "tests"]
+        }
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit"
+    }
+}
+
